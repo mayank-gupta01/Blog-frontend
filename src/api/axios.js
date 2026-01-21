@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080" // change after deployment
+  baseURL: "https://blog-backend-bice-ten.vercel.app" // change after deployment
 });
 
 api.interceptors.request.use((config) => {
